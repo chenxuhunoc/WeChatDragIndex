@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABA92D2722E9C11300BB54EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA92D2622E9C11300BB54EF /* AppDelegate.m */; };
+		ABA92D2A22E9C11300BB54EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA92D2922E9C11300BB54EF /* ViewController.m */; };
+		ABA92D2D22E9C11300BB54EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA92D2B22E9C11300BB54EF /* Main.storyboard */; };
+		ABA92D2F22E9C11800BB54EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA92D2E22E9C11800BB54EF /* Assets.xcassets */; };
+		ABA92D3222E9C11800BB54EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA92D3022E9C11800BB54EF /* LaunchScreen.storyboard */; };
+		ABA92D3522E9C11800BB54EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA92D3422E9C11800BB54EF /* main.m */; };
+		ABA92D3D22E9C17300BB54EF /* XCLeagueFilterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA92D3B22E9C17300BB54EF /* XCLeagueFilterCell.m */; };
+		ABA92D4322E9C1A200BB54EF /* UITableView+CCPIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA92D4122E9C1A200BB54EF /* UITableView+CCPIndexView.m */; };
+		ABA92D4422E9C1A200BB54EF /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA92D4222E9C1A200BB54EF /* Aspects.m */; };
+		ABA92D4622E9C51000BB54EF /* team.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABA92D4522E9C51000BB54EF /* team.plist */; };
+		F198E58647D58681DB04D144 /* libPods-WeChatDragIndex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68833D82117B178246AF6CF1 /* libPods-WeChatDragIndex.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68833D82117B178246AF6CF1 /* libPods-WeChatDragIndex.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeChatDragIndex.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AA7BBA39413A458012AA8B9 /* Pods-WeChatDragIndex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChatDragIndex.release.xcconfig"; path = "Target Support Files/Pods-WeChatDragIndex/Pods-WeChatDragIndex.release.xcconfig"; sourceTree = "<group>"; };
+		ABA92D2222E9C11300BB54EF /* WeChatDragIndex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChatDragIndex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA92D2522E9C11300BB54EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABA92D2622E9C11300BB54EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABA92D2822E9C11300BB54EF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABA92D2922E9C11300BB54EF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABA92D2C22E9C11300BB54EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABA92D2E22E9C11800BB54EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABA92D3122E9C11800BB54EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABA92D3322E9C11800BB54EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA92D3422E9C11800BB54EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABA92D3B22E9C17300BB54EF /* XCLeagueFilterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCLeagueFilterCell.m; sourceTree = "<group>"; };
+		ABA92D3C22E9C17300BB54EF /* XCLeagueFilterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCLeagueFilterCell.h; sourceTree = "<group>"; };
+		ABA92D3F22E9C1A200BB54EF /* UITableView+CCPIndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+CCPIndexView.h"; sourceTree = "<group>"; };
+		ABA92D4022E9C1A200BB54EF /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		ABA92D4122E9C1A200BB54EF /* UITableView+CCPIndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+CCPIndexView.m"; sourceTree = "<group>"; };
+		ABA92D4222E9C1A200BB54EF /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		ABA92D4522E9C51000BB54EF /* team.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = team.plist; sourceTree = "<group>"; };
+		D01515A45BE06B93BF38D952 /* Pods-WeChatDragIndex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChatDragIndex.debug.xcconfig"; path = "Target Support Files/Pods-WeChatDragIndex/Pods-WeChatDragIndex.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABA92D1F22E9C11300BB54EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F198E58647D58681DB04D144 /* libPods-WeChatDragIndex.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		891337EF4CCD26C1E029ED26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D01515A45BE06B93BF38D952 /* Pods-WeChatDragIndex.debug.xcconfig */,
+				8AA7BBA39413A458012AA8B9 /* Pods-WeChatDragIndex.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ABA92D1922E9C11300BB54EF = {
+			isa = PBXGroup;
+			children = (
+				ABA92D2422E9C11300BB54EF /* WeChatDragIndex */,
+				ABA92D2322E9C11300BB54EF /* Products */,
+				891337EF4CCD26C1E029ED26 /* Pods */,
+				E8FCB478AB2ACC99F12FAE17 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ABA92D2322E9C11300BB54EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABA92D2222E9C11300BB54EF /* WeChatDragIndex.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABA92D2422E9C11300BB54EF /* WeChatDragIndex */ = {
+			isa = PBXGroup;
+			children = (
+				ABA92D4522E9C51000BB54EF /* team.plist */,
+				ABA92D3E22E9C1A200BB54EF /* IndexView */,
+				ABA92D2522E9C11300BB54EF /* AppDelegate.h */,
+				ABA92D2622E9C11300BB54EF /* AppDelegate.m */,
+				ABA92D2822E9C11300BB54EF /* ViewController.h */,
+				ABA92D2922E9C11300BB54EF /* ViewController.m */,
+				ABA92D3C22E9C17300BB54EF /* XCLeagueFilterCell.h */,
+				ABA92D3B22E9C17300BB54EF /* XCLeagueFilterCell.m */,
+				ABA92D2B22E9C11300BB54EF /* Main.storyboard */,
+				ABA92D2E22E9C11800BB54EF /* Assets.xcassets */,
+				ABA92D3022E9C11800BB54EF /* LaunchScreen.storyboard */,
+				ABA92D3322E9C11800BB54EF /* Info.plist */,
+				ABA92D3422E9C11800BB54EF /* main.m */,
+			);
+			path = WeChatDragIndex;
+			sourceTree = "<group>";
+		};
+		ABA92D3E22E9C1A200BB54EF /* IndexView */ = {
+			isa = PBXGroup;
+			children = (
+				ABA92D4022E9C1A200BB54EF /* Aspects.h */,
+				ABA92D4222E9C1A200BB54EF /* Aspects.m */,
+				ABA92D3F22E9C1A200BB54EF /* UITableView+CCPIndexView.h */,
+				ABA92D4122E9C1A200BB54EF /* UITableView+CCPIndexView.m */,
+			);
+			path = IndexView;
+			sourceTree = "<group>";
+		};
+		E8FCB478AB2ACC99F12FAE17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68833D82117B178246AF6CF1 /* libPods-WeChatDragIndex.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABA92D2122E9C11300BB54EF /* WeChatDragIndex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA92D3822E9C11800BB54EF /* Build configuration list for PBXNativeTarget "WeChatDragIndex" */;
+			buildPhases = (
+				844F191CC50CD7CD9BB67AB0 /* [CP] Check Pods Manifest.lock */,
+				ABA92D1E22E9C11300BB54EF /* Sources */,
+				ABA92D1F22E9C11300BB54EF /* Frameworks */,
+				ABA92D2022E9C11300BB54EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeChatDragIndex;
+			productName = WeChatDragIndex;
+			productReference = ABA92D2222E9C11300BB54EF /* WeChatDragIndex.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABA92D1A22E9C11300BB54EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = XunCheng;
+				TargetAttributes = {
+					ABA92D2122E9C11300BB54EF = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = ABA92D1D22E9C11300BB54EF /* Build configuration list for PBXProject "WeChatDragIndex" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABA92D1922E9C11300BB54EF;
+			productRefGroup = ABA92D2322E9C11300BB54EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABA92D2122E9C11300BB54EF /* WeChatDragIndex */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABA92D2022E9C11300BB54EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA92D3222E9C11800BB54EF /* LaunchScreen.storyboard in Resources */,
+				ABA92D2F22E9C11800BB54EF /* Assets.xcassets in Resources */,
+				ABA92D2D22E9C11300BB54EF /* Main.storyboard in Resources */,
+				ABA92D4622E9C51000BB54EF /* team.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		844F191CC50CD7CD9BB67AB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeChatDragIndex-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABA92D1E22E9C11300BB54EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA92D2A22E9C11300BB54EF /* ViewController.m in Sources */,
+				ABA92D4322E9C1A200BB54EF /* UITableView+CCPIndexView.m in Sources */,
+				ABA92D3522E9C11800BB54EF /* main.m in Sources */,
+				ABA92D2722E9C11300BB54EF /* AppDelegate.m in Sources */,
+				ABA92D3D22E9C17300BB54EF /* XCLeagueFilterCell.m in Sources */,
+				ABA92D4422E9C1A200BB54EF /* Aspects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABA92D2B22E9C11300BB54EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA92D2C22E9C11300BB54EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABA92D3022E9C11800BB54EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA92D3122E9C11800BB54EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABA92D3622E9C11800BB54EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABA92D3722E9C11800BB54EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABA92D3922E9C11800BB54EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D01515A45BE06B93BF38D952 /* Pods-WeChatDragIndex.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeChatDragIndex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.XunCheng.WeChatDragIndex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABA92D3A22E9C11800BB54EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AA7BBA39413A458012AA8B9 /* Pods-WeChatDragIndex.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeChatDragIndex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.XunCheng.WeChatDragIndex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABA92D1D22E9C11300BB54EF /* Build configuration list for PBXProject "WeChatDragIndex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA92D3622E9C11800BB54EF /* Debug */,
+				ABA92D3722E9C11800BB54EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA92D3822E9C11800BB54EF /* Build configuration list for PBXNativeTarget "WeChatDragIndex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA92D3922E9C11800BB54EF /* Debug */,
+				ABA92D3A22E9C11800BB54EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABA92D1A22E9C11300BB54EF /* Project object */;
+}
